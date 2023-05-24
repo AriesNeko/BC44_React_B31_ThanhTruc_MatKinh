@@ -11,7 +11,7 @@ export default class Glass_List extends Component {
 
   render() {
     return (
-      <div className="d-flex justify-content-center p-4 bg-light rounded">
+      <div className="d-flex justify-content-center p-4 bg-white rounded">
         {this.renderGlassList()}
       </div>
     );

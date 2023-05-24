@@ -1,0 +1,13 @@
+.card {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #eee;
+}
+
+.card span {
+  font-size: 14px;
+}

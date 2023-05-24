@@ -9,7 +9,7 @@ export default class Content extends Component {
         <div className="my-5">
           <Girl_Image />
         </div>
-        <div className="2">
+        <div className="">
           <Glass_List />
         </div>
       </div>
