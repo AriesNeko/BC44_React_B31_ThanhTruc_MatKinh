@@ -8,6 +8,37 @@
   background-color: #eee;
 }
 
-.card span {
-  font-size: 14px;
+.model {
+  position: relative;
+}
+
+.model_glass {
+  position: absolute;
+  width: 26%;
+  top: 25%;
+  left: 37%;
+  opacity: 0.5;
+  z-index: 200;
+}
+
+.model_content {
+  position: relative;
+}
+
+.model_content-desc {
+  position: absolute;
+  bottom: 0;
+  left: 192px;
+  width: 50%;
+  background-color: #ffb7009c;
+  padding: 0.5rem;
+}
+
+.bottom_glass {
+  outline: none;
+}
+
+.bottom_glass-active {
+  outline: 3px solid #ffb7009c;
+  border-radius: 5px;
 }

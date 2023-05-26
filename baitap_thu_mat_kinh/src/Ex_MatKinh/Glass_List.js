@@ -1,11 +1,25 @@
 import React, { Component } from "react";
-import { glassArr } from "./data";
-import ItemGlass from "./ItemGlass";
+import "./style.css";
 
 export default class Glass_List extends Component {
   renderGlassList = () => {
-    return glassArr.map((glass, index) => {
-      return <ItemGlass key={index} data={glass} />;
+    let { dataGlass, active, changeGlass } = this.props;
+    return dataGlass.map((item) => {
+      return (
+        <div className="card" key={item.id} data={item}>
+          <img
+            onClick={() => {
+              changeGlass(item.id);
+            }}
+            className={
+              active === item.id ? "bottom_glass-active" : "bottom_glass"
+            }
+            style={{ width: 100, cursor: "pointer" }}
+            src={item.url}
+            alt="glass"
+          />
+        </div>
+      );
     });
   };
 
