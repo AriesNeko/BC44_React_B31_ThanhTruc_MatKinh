@@ -34,11 +34,11 @@
   padding: 0.5rem;
 }
 
-.bottom_glass {
+.glass {
   outline: none;
 }
 
-.bottom_glass-active {
+.glass-active {
   outline: 3px solid #ffb7009c;
   border-radius: 5px;
 }

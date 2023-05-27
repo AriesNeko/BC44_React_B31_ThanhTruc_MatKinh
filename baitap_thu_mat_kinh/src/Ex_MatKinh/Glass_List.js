@@ -11,9 +11,7 @@ export default class Glass_List extends Component {
             onClick={() => {
               changeGlass(item.id);
             }}
-            className={
-              active === item.id ? "bottom_glass-active" : "bottom_glass"
-            }
+            className={active === item.id ? "glass-active" : "glass"}
             style={{ width: 100, cursor: "pointer" }}
             src={item.url}
             alt="glass"
